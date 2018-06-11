@@ -97,6 +97,12 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/cdk@^6.2.0":
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-6.2.1.tgz#6ac6e58e8557623e6615ebcb673d74bcc575641c"
+  dependencies:
+    tslib "^1.7.1"
+
 "@angular/cli@~6.0.7":
   version "6.0.8"
   resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-6.0.8.tgz#65070958b944be30053232c51f8449b7ddd4d92a"
@@ -157,6 +163,12 @@
   version "6.0.4"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-6.0.4.tgz#4a19c1734d28590d987268090b16b12e71a67c30"
 
+"@angular/material@^6.2.1":
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-6.2.1.tgz#aec3387db755145b80d66d8497d4a834f88b61be"
+  dependencies:
+    tslib "^1.7.1"
+
 "@angular/platform-browser-dynamic@^6.0.3":
   version "6.0.4"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-6.0.4.tgz#3b86f6b826d45418520da583eb8ba0526f62a4bb"
@@ -182,6 +194,30 @@
     "@angular-devkit/core" "0.6.8"
     tree-kill "^1.0.0"
     webpack-sources "^1.1.0"
+
+"@ngxs/devtools-plugin@^3.1.3":
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/@ngxs/devtools-plugin/-/devtools-plugin-3.1.3.tgz#9fed0244e0a355e4a61723f90a24616d3c2326f2"
+  dependencies:
+    tslib "^1.9.0"
+
+"@ngxs/logger-plugin@^3.1.3":
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/@ngxs/logger-plugin/-/logger-plugin-3.1.3.tgz#6ffcfa7de65df0509647ae2684041383736ae7f0"
+  dependencies:
+    tslib "^1.9.0"
+
+"@ngxs/storage-plugin@^3.1.3":
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/@ngxs/storage-plugin/-/storage-plugin-3.1.3.tgz#179a695fd7d75ef63fe9b902cb789597ca6df456"
+  dependencies:
+    tslib "^1.9.0"
+
+"@ngxs/store@^3.1.3":
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/@ngxs/store/-/store-3.1.3.tgz#a55b809cba711d6b998b4b95677de7327b67b8e1"
+  dependencies:
+    tslib "^1.9.0"
 
 "@schematics/angular@0.6.8":
   version "0.6.8"
@@ -5867,7 +5903,7 @@ tsickle@^0.29.0:
     source-map "^0.6.0"
     source-map-support "^0.5.0"
 
-tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.7.1, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.9.2"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.2.tgz#8be0cc9a1f6dc7727c38deb16c2ebd1a2892988e"
 
